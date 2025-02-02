@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply rounded-2xl;
+}
+.input {
+    @apply rounded-2xl;
+}
+.file-input {
+    @apply rounded-2xl;
+}
