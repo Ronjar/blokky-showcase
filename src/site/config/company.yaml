@@ -1,11 +1,11 @@
-name: "ExampleCompany"
-slogan: "Example slogan" # Tet below the name
+name: "Ronjar"
+slogan: "© 2025" # Tet below the name
 logo_icon: "material-symbols:domain-rounded"
 #logo_img: "/images/logo.svg" # Use either logo_icon or logo_img
 footer:
-  title: "Company Links"
+  title: "About me"
   menu:
-    - title: "Jobs"
-      link: "https://jobs.example.com"
-    - title: "About"
-      link: "https://about.example.com"
+    - title: "Personal site"
+      link: "https://robingebert.com"
+    - title: "Github"
+      link: "https://github.com/ronjar"

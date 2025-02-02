@@ -1,31 +1,25 @@
 general:
-  name: "Casey"
-  summary: "A showcasing CMS written in Svelte"
-  description: "Casey is a CMS that is written in Svelte and showcases the power of Svelte."
-  url: "https://example.com"
-  logo_icon: lucide-lab:chest
+  name: "Blokky"
+  summary: "Blokky - Stop doomscrolling"
+  description: "Blocky is a simple app that blocks Reels / Shorts. You can still use those apps as usual, but you won't be disturbed by Reels / Shorts anymore."
+  url: "https://blokky.robingebert.com"
+  logo_image: "/src/site/img/logo.png"
+  #logo_icon: lucide-lab:chest
   color: 
     light: "#FF5722"
     dark: "#E64A19"
-  version: "1.0.0"
-  device: "desktop" # "smartphone" | "desktop" | "browser"
+  version: "1.0.1"
+  device: "smartphone" # "smartphone" | "desktop" | "browser"
 
 store:
-  play_store: "https://play.google.com/store/apps/details?id=com.example"
-  app_store: "https://apps.apple.com/us/app/example/id1234567890"
-  microsoft_store: "https://www.microsoft.com/store/apps/9NBLGGH4R315"
+  play_store: "https://play.google.com/store/apps/details?id=com.robingebert.blokky"
 
 features:
-  - title: "Easy configuration"
-    description: "Configure it using just 2 YAML files and markdown for additional sites."
+  - title: "Easy usage"
+    description: "Few clicks and you will not be disturbed by Reels anymore"
     icon: "material-symbols:edit-square-outline-rounded"
 
-  - title: "Responsive layout"
-    description: "Casey is responsive and works on all devices and browsers."
-    icon: "material-symbols:devices-outline-rounded"
-    link: "/sites/ResponsiveLayout"
-
-  - title: "Static deployment"
-    description: "Deploy your site as a static site using Vercel, Netlify, or GitHub Pages."
+  - title: "Open source"
+    description: "No hidden code, everything is open source. You can check it out on GitHub"
     icon: "material-symbols:rocket-launch-rounded"
-    link: "https://robingebert.com"
+    link: "https://github.com/Ronjar/Blokky"
