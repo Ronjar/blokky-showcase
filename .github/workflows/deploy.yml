@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main  # Insert your main branch name here (default: main)
+  workflow_dispatch:
 jobs:
   build:
     name: Build SvelteKit App
