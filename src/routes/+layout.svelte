@@ -4,6 +4,8 @@
     import Icon from "@iconify/svelte";
     import { getFooterSites, getHeaderSites } from "$lib/fetchSites";
 
+    import image from "../site/img/logo.png?enhanced";
+
     let headerSites = getHeaderSites();
     let footerSites = getFooterSites();
 </script>
@@ -12,10 +14,10 @@
     <header class="navbar bg-base-100 flex justify-between sticky top-0 z-20 shadow-lg">
         <a href="/" class="btn btn-ghost rounded-2xl m-2 text-xl flex items-center">
             {#if app.general.logo_image}
-                <img
-                    src={app.general.logo_image}
+                <enhanced:img
+                    src={image}
                     alt={app.general.name}
-                    class="h-8 w-8 mr-2 rounded-box"
+                    class="h-12 w-12 mr-2 rounded-xl"
                 />
             {:else if app.general.logo_icon}
                 <Icon
