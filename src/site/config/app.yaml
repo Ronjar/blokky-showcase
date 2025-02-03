@@ -23,3 +23,8 @@ features:
     description: "No hidden code, everything is open source. You can check it out on GitHub"
     icon: "material-symbols:rocket-launch-rounded"
     link: "https://github.com/Ronjar/Blokky"
+  
+  - title: "Designed with Privacy in mind"
+    description: "No data is collected, no ads are shown. Just a simple app to block Reels"
+    icon: "material-symbols:security-rounded"
+    link: "/sites/AboutAccessibilityServices"

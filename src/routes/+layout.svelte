@@ -17,7 +17,7 @@
                 <enhanced:img
                     src={image}
                     alt={app.general.name}
-                    class="h-12 w-12 mr-2 rounded-xl"
+                    class="h-10 w-10 mr-2 rounded-xl"
                 />
             {:else if app.general.logo_icon}
                 <Icon
